@@ -1,0 +1,75 @@
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.conteiner{
+    max-width: 1366px;
+    height: 765px;
+    background-color: #C4C4C4;
+    
+}
+h1{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42.19px;
+    text-align: center;
+    background-color:#FF9393 ;
+    padding: 23px 0;
+    border-bottom: 1px solid #000;
+    
+}
+.input__wrapper{
+    display: flex;
+    width: 780px;
+    margin-left: 293px;
+    margin-top: 29px;
+    margin-right: 293px;
+    
+    
+}
+.input__wrapper input{
+    width: 79%;
+    
+    border-radius: 5px;
+    background-color: #C2C2C2;
+    box-shadow: 0 0 10px;
+    margin-right: 12px;
+
+}
+.input__btn{
+    width: 21%;
+    height: 69px;
+    background-color: #C2C2C2;
+    box-shadow: 0 0 10px;
+    border-radius: 5px;
+    margin-left: 12px;
+   
+}
+.tasks__wraper{
+    width: 780px;
+    height: 526px;
+    box-shadow: 0 0 10px ;
+    margin-left: 293px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.task__wrapper{
+    width: 735px;
+    height: 66px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    position: relative;
+    margin: 30px;
+}
+.task__btn{
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background: #FF9393;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
